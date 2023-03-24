@@ -1,0 +1,22 @@
+INSERT INTO STATUS_ITEMS_IN_ORDERS (ITEMID, STATUSDATE, STATE)
+VALUES
+  (1, '2022-01-01', 'Processing'),
+  (1, '2022-01-05', 'Shipping'),
+  (1, '2022-01-10', 'Delivered'),
+  (2, '2022-01-05', 'Processing'),
+  (2, '2022-01-08', 'Shipping'),
+  (2, '2022-01-12', 'Delivered'),
+  (3, '2022-02-01', 'Processing'),
+  (3, '2022-02-05', 'Shipping'),
+  (3, '2022-02-10', 'Delivered'),
+  (4, '2022-02-05', 'Processing'),
+  (4, '2022-02-08', 'Shipping'),
+  (4, '2022-02-12', 'Delivered'),
+  (5, '2022-03-01', 'Processing'),
+  (5, '2022-03-05', 'Shipping'),
+  (5, '2022-03-10', 'Delivered'),
+  (6, '2022-03-05', 'Processing'),
+  (6, '2022-03-08', 'Shipping'),
+  (6, '2022-03-12', 'Delivered'),
+  (7, '2022-04-01', 'Processing'),
+  (7, '2022-04-05', 'Shipping');
