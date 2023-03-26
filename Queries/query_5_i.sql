@@ -1,0 +1,3 @@
+SELECT PUBID
+FROM PUBLICATION
+WHERE PUBLISHER = 'Nanyang Publisher Company'
