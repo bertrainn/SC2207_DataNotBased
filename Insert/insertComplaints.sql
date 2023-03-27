@@ -1,5 +1,5 @@
 INSERT INTO COMPLAINTS (COMPLAINTS_ID, TEXT, FILLED_DATE_TIME, HANDLED_DATE_TIME, CID, EID) VALUES 
-(1, 'The product was damaged when it arrived', '2022-08-02 13:00:00', '2022-08-05 09:00:00', 2, 2),
+(1, 'The product was damaged when it arrived', '2022-08-03 13:00:00', '2022-08-05 09:00:00', 2, 2),
 (2, 'I received the wrong product', '2022-09-10 16:30:00', '2022-09-15 11:00:00', 3, 1),
 (3, 'The delivery was delayed', '2022-10-20 10:00:00', '2022-10-27 10:00:00', 4, 2),
 (4, 'The item is defective', '2022-11-30 14:45:00', '2022-12-07 14:45:00', 1, 3),
