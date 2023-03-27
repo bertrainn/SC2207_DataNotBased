@@ -1,7 +1,7 @@
 INSERT INTO STATUS_ITEMS_IN_ORDERS (ITEMID, STATUSDATE, STATE) VALUES
   (1, '2022-08-01', 'Processing'),
-  (1, '2022-08-01', 'Shipping'),
-  (1, '2022-08-02', 'Delivered'),
+  (1, '2022-08-02', 'Shipping'),
+  (1, '2022-08-03', 'Delivered'),
   (2, '2022-08-02', 'Processing'),
   (2, '2022-08-08', 'Shipping'),
   (2, '2022-09-9', 'Delivered'),
