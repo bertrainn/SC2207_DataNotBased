@@ -56,4 +56,5 @@ INSERT INTO ITEMS_IN_ORDERS (ITEMID, ORDERID, STOCKID, CID, COMMENT, RATING, DAT
 (55, 33, 5, 2, 'Awesome read!', 5, '2022-07-08', '2022-07-08', 9.99, 2),
 (56, 34, 8, 3, 'Highly recommend!', 5, '2022-07-16', '2022-07-16', 14.99, 1),
 (57, 35, 10, 4, 'Not what I expected', 2, '2022-07-22', '2022-07-22', 8.99, 1),
-(58, 36, 12, 5, 'Very informative', 4, '2022-07-28', '2022-07-28', 11.99, 1);
+(58, 36, 12, 5, 'Very informative', 4, '2022-07-28', '2022-07-28', 11.99, 1),
+(59, 1, 4, 1, 'Great book, highly recommend', 5, '2022-08-05 10:00:00', '2022-08-04', 10.99, 1);
