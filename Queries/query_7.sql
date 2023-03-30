@@ -4,7 +4,7 @@ FROM (
     FROM ITEMS_IN_ORDERS io
     JOIN STOCKS_IN_BOOKSTORE s ON io.STOCKID = s.STOCKID
     GROUP BY io.CID
-) as m
+) AS m
 JOIN CUSTOMERS c ON m.CID = c.CID
 JOIN ITEMS_IN_ORDERS io ON c.CID = io.CID
 JOIN STOCKS_IN_BOOKSTORE s ON io.STOCKID = s.STOCKID AND s.STOCK_PRICE = m.max_price
@@ -21,4 +21,4 @@ JOIN (
             GROUP BY CID
         ) AS complaint_counts
     )
-) comp ON c.CID = comp.CID
+) AS comp ON m.CID = comp.CID
