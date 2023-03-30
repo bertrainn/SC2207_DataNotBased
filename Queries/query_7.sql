@@ -13,7 +13,7 @@ JOIN (
     SELECT CID
     FROM COMPLAINTS
     GROUP BY CID
-    HAVING COUNT(*) IN (
+    HAVING COUNT(*) >= ALL (
         SELECT MAX(complaint_count)
         FROM (
             SELECT COUNT(*) AS complaint_count
